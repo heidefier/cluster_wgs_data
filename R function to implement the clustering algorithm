@@ -1,6 +1,6 @@
 ###R function to implement the clustering algorithm### 
-#pos is a vector containing the variant positions of the respective region sorted in an increasing order
-#names is vector with the corresponding variant names
+#pos(numeric) is a vector containing the variant positions of the respective region sorted in an increasing order
+#names(character) is a vector with the corresponding variant names
 #window-size(numeric) and overlap(numeric) are two parameters of the algorithm , specifying the number of variants in the sliding windows and the overlap. Default is 100 for window-size and 50 for overlap
 #return_what (“names”,”positions”): Either returns the “positions” or the “names” of the variants in the clusters, default is “names”
 #write_output(TRUE/FALSE): Specifies whether the output should be written in a file, default=TRUE
